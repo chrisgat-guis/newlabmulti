@@ -24,6 +24,12 @@ variable "vms" {
       vm_size       = "Standard_DS1_v2"
       admin_username = "adminuser3"
       admin_password = "Password1234!"
+    },
+    {
+      name          = "vm4"
+      vm_size       = "Standard_DS2_v2"
+      admin_username = "adminuser3"
+      admin_password = "Password1234!"
     }
   ]
 }
